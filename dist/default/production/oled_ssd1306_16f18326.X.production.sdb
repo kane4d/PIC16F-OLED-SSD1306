@@ -1,0 +1,831 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18326 ]
+[d frameptr 6 ]
+"183 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+[e E7419 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"185
+[e E7487 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"163 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+[e E7503 . `uc
+SCROLL_PAGE_0 0
+SCROLL_PAGE_1 1
+SCROLL_PAGE_2 2
+SCROLL_PAGE_3 3
+SCROLL_PAGE_4 4
+SCROLL_PAGE_5 5
+SCROLL_PAGE_6 6
+SCROLL_PAGE_7 7
+]
+[e E7489 . `uc
+SCROLL_RIGHT 38
+SCROLL_LEFT 42
+]
+[e E7493 . `uc
+SCROLL_SPEED_0 3
+SCROLL_SPEED_1 2
+SCROLL_SPEED_2 1
+SCROLL_SPEED_3 6
+SCROLL_SPEED_4 0
+SCROLL_SPEED_5 5
+SCROLL_SPEED_6 4
+SCROLL_SPEED_7 7
+]
+"6 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+[e E7426 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"235
+[e E7504 . `uc
+SCROLL_PAGE_0 0
+SCROLL_PAGE_1 1
+SCROLL_PAGE_2 2
+SCROLL_PAGE_3 3
+SCROLL_PAGE_4 4
+SCROLL_PAGE_5 5
+SCROLL_PAGE_6 6
+SCROLL_PAGE_7 7
+]
+[e E7490 . `uc
+SCROLL_RIGHT 38
+SCROLL_LEFT 42
+]
+[e E7494 . `uc
+SCROLL_SPEED_0 3
+SCROLL_SPEED_1 2
+SCROLL_SPEED_2 1
+SCROLL_SPEED_3 6
+SCROLL_SPEED_4 0
+SCROLL_SPEED_5 5
+SCROLL_SPEED_6 4
+SCROLL_SPEED_7 7
+]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"55 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"196 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"233
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"563
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+"581
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+"598
+[v _I2C1_MasterWrite I2C1_MasterWrite `(v  1 e 1 0 ]
+"641
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+"694
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+"707
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"728
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+"51 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"77 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"87
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"105
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"111
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"42 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+[v _display_init display_init `(v  1 e 1 0 ]
+"98
+[v _display_setPixel display_setPixel `(v  1 s 1 display_setPixel ]
+"116
+[v _display_clear display_clear `(v  1 e 1 0 ]
+"126
+[v _display_contrast display_contrast `(v  1 e 1 0 ]
+"138
+[v _display_invert display_invert `(v  1 e 1 0 ]
+"148
+[v _display_update display_update `(v  1 e 1 0 ]
+"167
+[v _display_line display_line `(v  1 s 1 display_line ]
+"226
+[v _display_stopscroll display_stopscroll `(v  1 e 1 0 ]
+"235
+[v _display_scroll display_scroll `(v  1 e 1 0 ]
+"268
+[v _gfx_init gfx_init `(v  1 e 1 0 ]
+"282
+[v _gfx_width gfx_width `(i  1 e 2 0 ]
+"286
+[v _gfx_height gfx_height `(i  1 e 2 0 ]
+"294
+[v _gfx_setCursor gfx_setCursor `(v  1 e 1 0 ]
+"299
+[v _gfx_setTextSize gfx_setTextSize `(v  1 e 1 0 ]
+"303
+[v _gfx_setTextColor gfx_setTextColor `(v  1 e 1 0 ]
+"317
+[v _gfx_setRotation gfx_setRotation `(v  1 e 1 0 ]
+"334
+[v _gfx_rotation_adjust gfx_rotation_adjust `(v  1 s 1 gfx_rotation_adjust ]
+"354
+[v _gfx_drawPixel gfx_drawPixel `(v  1 e 1 0 ]
+"365
+[v _gfx_hvLine gfx_hvLine `(v  1 s 1 gfx_hvLine ]
+"399
+[v _my_abs my_abs `(i  1 e 2 0 ]
+"407
+[v _gfx_drawLine gfx_drawLine `(v  1 e 1 0 ]
+"450
+[v _gfx_drawRect gfx_drawRect `(v  1 e 1 0 ]
+"458
+[v _gfx_fillRect gfx_fillRect `(v  1 e 1 0 ]
+"473
+[v _gfx_drawCircle gfx_drawCircle `(v  1 e 1 0 ]
+"504
+[v _gfx_drawTriangle gfx_drawTriangle `(v  1 e 1 0 ]
+"513
+[v _gfx_drawChar gfx_drawChar `(v  1 e 1 0 ]
+"547
+[v _gfx_write gfx_write `(v  1 e 1 0 ]
+"563
+[v _my_strlen my_strlen `(ui  1 e 2 0 ]
+"574
+[v _gfx_print gfx_print `(v  1 e 1 0 ]
+"583
+[v _gfx_println gfx_println `(v  1 e 1 0 ]
+[s S150 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"362 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f18326.h
+[u S155 . 1 `S150 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES155  1 e 1 @11 ]
+[s S184 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"532
+[u S193 . 1 `S184 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES193  1 e 1 @17 ]
+"1497
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1542
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S163 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1642
+[u S172 . 1 `S163 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES172  1 e 1 @145 ]
+"1873
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2189
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2234
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2777
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2822
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3738
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3788
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3838
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4092
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4600
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"4722
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S309 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4755
+[s S315 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S320 . 1 `S309 1 . 1 0 `S315 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES320  1 e 1 @533 ]
+[s S335 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"5014
+[u S344 . 1 `S335 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES344  1 e 1 @534 ]
+"5114
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"5944
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5989
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"11573
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"11618
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"11680
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"11720
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"11782
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"11816
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"11925
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12065
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12162
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12208
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12266
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+[s S29 . 1 `uc 1 SSP1CLKPPS 1 0 :5:0 
+]
+"13181
+[s S31 . 1 `uc 1 SSP1CLKPPS0 1 0 :1:0 
+`uc 1 SSP1CLKPPS1 1 0 :1:1 
+`uc 1 SSP1CLKPPS2 1 0 :1:2 
+`uc 1 SSP1CLKPPS3 1 0 :1:3 
+`uc 1 SSP1CLKPPS4 1 0 :1:4 
+]
+[u S37 . 1 `S29 1 . 1 0 `S31 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES37  1 e 1 @3616 ]
+[s S49 . 1 `uc 1 SSP1DATPPS 1 0 :5:0 
+]
+"13233
+[s S51 . 1 `uc 1 SSP1DATPPS0 1 0 :1:0 
+`uc 1 SSP1DATPPS1 1 0 :1:1 
+`uc 1 SSP1DATPPS2 1 0 :1:2 
+`uc 1 SSP1DATPPS3 1 0 :1:3 
+`uc 1 SSP1DATPPS4 1 0 :1:4 
+]
+[u S57 . 1 `S49 1 . 1 0 `S51 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES57  1 e 1 @3617 ]
+[s S69 . 1 `uc 1 RC4PPS 1 0 :5:0 
+]
+"14197
+[s S71 . 1 `uc 1 RC4PPS0 1 0 :1:0 
+`uc 1 RC4PPS1 1 0 :1:1 
+`uc 1 RC4PPS2 1 0 :1:2 
+`uc 1 RC4PPS3 1 0 :1:3 
+`uc 1 RC4PPS4 1 0 :1:4 
+]
+[u S77 . 1 `S69 1 . 1 0 `S71 1 . 1 0 ]
+[v _RC4PPSbits RC4PPSbits `VES77  1 e 1 @3748 ]
+[s S89 . 1 `uc 1 RC5PPS 1 0 :5:0 
+]
+"14249
+[s S91 . 1 `uc 1 RC5PPS0 1 0 :1:0 
+`uc 1 RC5PPS1 1 0 :1:1 
+`uc 1 RC5PPS2 1 0 :1:2 
+`uc 1 RC5PPS3 1 0 :1:3 
+`uc 1 RC5PPS4 1 0 :1:4 
+]
+[u S97 . 1 `S89 1 . 1 0 `S91 1 . 1 0 ]
+[v _RC5PPSbits RC5PPSbits `VES97  1 e 1 @3749 ]
+"20455
+[v _PLLR PLLR `VEb  1 e 0 @18656 ]
+"17 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\font.h
+[v _font font `DC[1275]uc  1 s 1275 font ]
+[s S239 . 4 `ui 1 address 2 0 `uc 1 length 1 2 `*.1uc 1 pbuffer 1 3 ]
+"183 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+[s S251 . 3 `uc 1 count 1 0 `*.5S239 1 ptrb_list 1 1 `*.1E7419 1 pTrFlag 1 2 ]
+[v _i2c1_tr_queue i2c1_tr_queue `[1]S251  1 s 3 i2c1_tr_queue ]
+"184
+[s S255 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S259 . 1 `S255 1 s 1 0 `uc 1 status 1 0 ]
+[s S262 . 5 `*.5S251 1 pTrTail 1 0 `*.5S251 1 pTrHead 1 1 `S259 1 trStatus 1 2 `uc 1 i2cDoneFlag 1 3 `uc 1 i2cErrors 1 4 ]
+[v _i2c1_object i2c1_object `S262  1 s 5 i2c1_object ]
+"185
+[v _i2c1_state i2c1_state `E7487  1 s 1 i2c1_state ]
+"186
+[v _i2c1_trb_count i2c1_trb_count `uc  1 s 1 i2c1_trb_count ]
+"188
+[v _p_i2c1_trb_current p_i2c1_trb_current `*.5S239  1 s 1 p_i2c1_trb_current ]
+"189
+[v _p_i2c1_current p_i2c1_current `*.5S251  1 s 1 p_i2c1_current ]
+"258 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+[v _WIDTH WIDTH `i  1 e 2 0 ]
+[v _HEIGHT HEIGHT `i  1 e 2 0 ]
+"259
+[v __width _width `i  1 s 2 _width ]
+[v __height _height `i  1 s 2 _height ]
+"260
+[v _cursor_x cursor_x `i  1 s 2 cursor_x ]
+[v _cursor_y cursor_y `i  1 s 2 cursor_y ]
+"261
+[v _textcolor textcolor `ui  1 s 2 textcolor ]
+[v _textbgcolor textbgcolor `ui  1 s 2 textbgcolor ]
+"262
+[v _textsize textsize `uc  1 s 1 textsize ]
+"263
+[v _rotation rotation `uc  1 e 1 0 ]
+"264
+[v _wrap wrap `uc  1 e 1 0 ]
+"158 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.h
+[v _frameBuff frameBuff `[8][129]uc  1 e 1032 @9192 ]
+"55 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@i i `i  1 a 2 19 ]
+"227
+[v main@j j `i  1 a 2 17 ]
+"188
+[v main@color color `uc  1 a 1 4 ]
+"264
+} 0
+"282 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+[v _gfx_width gfx_width `(i  1 e 2 0 ]
+{
+"284
+} 0
+"299
+[v _gfx_setTextSize gfx_setTextSize `(v  1 e 1 0 ]
+{
+[v gfx_setTextSize@size size `uc  1 a 1 wreg ]
+[v gfx_setTextSize@size size `uc  1 a 1 wreg ]
+[v gfx_setTextSize@size size `uc  1 a 1 4 ]
+"301
+} 0
+"303
+[v _gfx_setTextColor gfx_setTextColor `(v  1 e 1 0 ]
+{
+[v gfx_setTextColor@color color `ui  1 p 2 0 ]
+"307
+} 0
+"317
+[v _gfx_setRotation gfx_setRotation `(v  1 e 1 0 ]
+{
+[v gfx_setRotation@x x `uc  1 a 1 wreg ]
+[v gfx_setRotation@x x `uc  1 a 1 wreg ]
+"319
+[v gfx_setRotation@x x `uc  1 a 1 1 ]
+"332
+} 0
+"294
+[v _gfx_setCursor gfx_setCursor `(v  1 e 1 0 ]
+{
+[v gfx_setCursor@x x `i  1 p 2 0 ]
+[v gfx_setCursor@y y `i  1 p 2 2 ]
+"297
+} 0
+"583
+[v _gfx_println gfx_println `(v  1 e 1 0 ]
+{
+[v gfx_println@s s `*.25DCuc  1 p 2 59 ]
+"586
+} 0
+"574
+[v _gfx_print gfx_print `(v  1 e 1 0 ]
+{
+"577
+[v gfx_print@i i `ui  1 a 2 57 ]
+"576
+[v gfx_print@len len `ui  1 a 2 55 ]
+"574
+[v gfx_print@s s `*.25DCuc  1 p 2 53 ]
+"581
+} 0
+"563
+[v _my_strlen my_strlen `(ui  1 e 2 0 ]
+{
+"565
+[v my_strlen@cp cp `*.25DCuc  1 a 2 4 ]
+"563
+[v my_strlen@s s `*.25DCuc  1 p 2 0 ]
+"572
+} 0
+"547
+[v _gfx_write gfx_write `(v  1 e 1 0 ]
+{
+[v gfx_write@ch ch `uc  1 a 1 wreg ]
+[v gfx_write@ch ch `uc  1 a 1 wreg ]
+[v gfx_write@ch ch `uc  1 a 1 77 ]
+"561
+} 0
+"513
+[v _gfx_drawChar gfx_drawChar `(v  1 e 1 0 ]
+{
+"527
+[v gfx_drawChar@j j `c  1 a 1 44 ]
+"522
+[v gfx_drawChar@line line `uc  1 a 1 39 ]
+"520
+[v gfx_drawChar@i i `c  1 a 1 45 ]
+"513
+[v gfx_drawChar@x x `i  1 p 2 22 ]
+[v gfx_drawChar@y y `i  1 p 2 24 ]
+[v gfx_drawChar@c c `uc  1 p 1 26 ]
+[v gfx_drawChar@color color `ui  1 p 2 27 ]
+[v gfx_drawChar@bg bg `ui  1 p 2 29 ]
+[v gfx_drawChar@size size `uc  1 p 1 31 ]
+"545
+} 0
+"458
+[v _gfx_fillRect gfx_fillRect `(v  1 e 1 0 ]
+{
+"459
+[v gfx_fillRect@i i `i  1 a 2 75 ]
+"458
+[v gfx_fillRect@x x `i  1 p 2 12 ]
+[v gfx_fillRect@y y `i  1 p 2 14 ]
+[v gfx_fillRect@w w `i  1 p 2 16 ]
+[v gfx_fillRect@h h `i  1 p 2 18 ]
+[v gfx_fillRect@color color `ui  1 p 2 20 ]
+"469
+} 0
+"286
+[v _gfx_height gfx_height `(i  1 e 2 0 ]
+{
+"288
+} 0
+"504
+[v _gfx_drawTriangle gfx_drawTriangle `(v  1 e 1 0 ]
+{
+[v gfx_drawTriangle@x0 x0 `i  1 p 2 12 ]
+[v gfx_drawTriangle@y0 y0 `i  1 p 2 14 ]
+[v gfx_drawTriangle@x1 x1 `i  1 p 2 16 ]
+[v gfx_drawTriangle@y1 y1 `i  1 p 2 18 ]
+[v gfx_drawTriangle@x2 x2 `i  1 p 2 20 ]
+[v gfx_drawTriangle@y2 y2 `i  1 p 2 22 ]
+[v gfx_drawTriangle@color color `ui  1 p 2 24 ]
+"509
+} 0
+"450
+[v _gfx_drawRect gfx_drawRect `(v  1 e 1 0 ]
+{
+[v gfx_drawRect@x x `i  1 p 2 12 ]
+[v gfx_drawRect@y y `i  1 p 2 14 ]
+[v gfx_drawRect@w w `i  1 p 2 16 ]
+[v gfx_drawRect@h h `i  1 p 2 18 ]
+[v gfx_drawRect@color color `ui  1 p 2 20 ]
+"456
+} 0
+"407
+[v _gfx_drawLine gfx_drawLine `(v  1 e 1 0 ]
+{
+"415
+[v gfx_drawLine@t t `i  1 a 2 10 ]
+"426
+[v gfx_drawLine@dx dx `i  1 a 2 8 ]
+"417
+[v gfx_drawLine@steep steep `i  1 a 2 6 ]
+"429
+[v gfx_drawLine@err err `i  1 a 2 4 ]
+"430
+[v gfx_drawLine@ystep ystep `i  1 a 2 2 ]
+"426
+[v gfx_drawLine@dy dy `i  1 a 2 0 ]
+"407
+[v gfx_drawLine@x0 x0 `i  1 p 2 53 ]
+[v gfx_drawLine@y0 y0 `i  1 p 2 55 ]
+[v gfx_drawLine@x1 x1 `i  1 p 2 57 ]
+[v gfx_drawLine@y1 y1 `i  1 p 2 59 ]
+[v gfx_drawLine@color color `ui  1 p 2 61 ]
+"448
+} 0
+"399
+[v _my_abs my_abs `(i  1 e 2 0 ]
+{
+[v my_abs@a a `i  1 p 2 0 ]
+"404
+} 0
+"365
+[v _gfx_hvLine gfx_hvLine `(v  1 s 1 gfx_hvLine ]
+{
+"391
+[v gfx_hvLine@t t `i  1 a 2 51 ]
+"365
+[v gfx_hvLine@x1 x1 `i  1 p 2 40 ]
+[v gfx_hvLine@y1 y1 `i  1 p 2 42 ]
+[v gfx_hvLine@x2 x2 `i  1 p 2 44 ]
+[v gfx_hvLine@y2 y2 `i  1 p 2 46 ]
+[v gfx_hvLine@color color `ui  1 p 2 48 ]
+"396
+} 0
+"167
+[v _display_line display_line `(v  1 s 1 display_line ]
+{
+"180
+[v display_line@lbit lbit `uc  1 a 1 33 ]
+"182
+[v display_line@ubit ubit `uc  1 a 1 28 ]
+"177
+[v display_line@mask mask `uc  1 a 1 35 ]
+"214
+[v display_line@ptr_781 ptr `*.39uc  1 a 2 36 ]
+"210
+[v display_line@pstart_778 pstart `*.39uc  1 a 2 26 ]
+"211
+[v display_line@pend_779 pend `*.39uc  1 a 2 24 ]
+"212
+[v display_line@pixmask pixmask `uc  1 a 1 34 ]
+"173
+[v display_line@ptr ptr `*.39uc  1 a 2 38 ]
+"172
+[v display_line@pend pend `*.39uc  1 a 2 31 ]
+"171
+[v display_line@pstart pstart `*.39uc  1 a 2 29 ]
+"167
+[v display_line@x1 x1 `i  1 p 2 6 ]
+[v display_line@y1 y1 `i  1 p 2 8 ]
+[v display_line@x2 x2 `i  1 p 2 10 ]
+[v display_line@y2 y2 `i  1 p 2 12 ]
+[v display_line@color color `ui  1 p 2 14 ]
+"224
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 9 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 8 ]
+[v ___awdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"42
+} 0
+"473 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+[v _gfx_drawCircle gfx_drawCircle `(v  1 e 1 0 ]
+{
+"479
+[v gfx_drawCircle@y y `i  1 a 2 49 ]
+"478
+[v gfx_drawCircle@x x `i  1 a 2 47 ]
+"475
+[v gfx_drawCircle@f f `i  1 a 2 45 ]
+"477
+[v gfx_drawCircle@ddF_y ddF_y `i  1 a 2 43 ]
+"476
+[v gfx_drawCircle@ddF_x ddF_x `i  1 a 2 41 ]
+"473
+[v gfx_drawCircle@x0 x0 `i  1 p 2 29 ]
+[v gfx_drawCircle@y0 y0 `i  1 p 2 31 ]
+[v gfx_drawCircle@r r `i  1 p 2 33 ]
+[v gfx_drawCircle@color color `ui  1 p 2 35 ]
+"502
+} 0
+"354
+[v _gfx_drawPixel gfx_drawPixel `(v  1 e 1 0 ]
+{
+[v gfx_drawPixel@x x `i  1 p 2 22 ]
+[v gfx_drawPixel@y y `i  1 p 2 24 ]
+[v gfx_drawPixel@color color `ui  1 p 2 26 ]
+"362
+} 0
+"334
+[v _gfx_rotation_adjust gfx_rotation_adjust `(v  1 s 1 gfx_rotation_adjust ]
+{
+[v gfx_rotation_adjust@px px `*.4i  1 a 1 wreg ]
+"336
+[v gfx_rotation_adjust@y0 y0 `i  1 a 2 7 ]
+"334
+[v gfx_rotation_adjust@px px `*.4i  1 a 1 wreg ]
+[v gfx_rotation_adjust@py py `*.4i  1 p 1 0 ]
+"336
+[v gfx_rotation_adjust@px px `*.4i  1 a 1 9 ]
+"352
+} 0
+"98
+[v _display_setPixel display_setPixel `(v  1 s 1 display_setPixel ]
+{
+[v display_setPixel@x x `i  1 p 2 6 ]
+[v display_setPixel@y y `i  1 p 2 8 ]
+[v display_setPixel@color color `ui  1 p 2 10 ]
+"114
+} 0
+"148
+[v _display_update display_update `(v  1 e 1 0 ]
+{
+"156
+[v display_update@page page `uc  1 a 1 17 ]
+"149
+[v display_update@cmdbuf cmdbuf `[5]uc  1 a 5 12 ]
+"148
+[v display_update@F7624 F7624 `[5]uc  1 s 5 F7624 ]
+"162
+} 0
+"226
+[v _display_stopscroll display_stopscroll `(v  1 e 1 0 ]
+{
+"228
+[v display_stopscroll@cmdbuf cmdbuf `[2]uc  1 a 2 1 ]
+"226
+[v display_stopscroll@F7644 F7644 `[2]uc  1 s 2 F7644 ]
+"233
+} 0
+"235
+[v _display_scroll display_scroll `(v  1 e 1 0 ]
+{
+[v display_scroll@start start `E7504  1 a 1 wreg ]
+"237
+[v display_scroll@cmdbuf cmdbuf `[9]uc  1 a 9 4 ]
+"235
+[v display_scroll@start start `E7504  1 a 1 wreg ]
+[v display_scroll@end end `E7504  1 p 1 0 ]
+[v display_scroll@dir dir `E7490  1 p 1 1 ]
+[v display_scroll@speed speed `E7494  1 p 1 2 ]
+[v display_scroll@F7650 F7650 `[9]uc  1 s 9 F7650 ]
+"247
+[v display_scroll@start start `E7504  1 a 1 13 ]
+"253
+} 0
+"138
+[v _display_invert display_invert `(v  1 e 1 0 ]
+{
+[v display_invert@invert invert `uc  1 a 1 wreg ]
+"140
+[v display_invert@cmdbuf cmdbuf `[2]uc  1 a 2 2 ]
+"138
+[v display_invert@invert invert `uc  1 a 1 wreg ]
+[v display_invert@F7621 F7621 `[2]uc  1 s 2 F7621 ]
+"143
+[v display_invert@invert invert `uc  1 a 1 1 ]
+"146
+} 0
+"42
+[v _display_init display_init `(v  1 e 1 0 ]
+{
+"47
+[v display_init@cmdbuf cmdbuf `[26]uc  1 a 26 5 ]
+"45
+[v display_init@F7608 F7608 `[26]uc  1 s 26 F7608 ]
+"77
+} 0
+"268
+[v _gfx_init gfx_init `(v  1 e 1 0 ]
+{
+[v gfx_init@width width `i  1 p 2 0 ]
+[v gfx_init@height height `i  1 p 2 2 ]
+"279
+} 0
+"126
+[v _display_contrast display_contrast `(v  1 e 1 0 ]
+{
+[v display_contrast@contrast contrast `uc  1 a 1 wreg ]
+"128
+[v display_contrast@cmdbuf cmdbuf `[3]uc  1 a 3 1 ]
+"126
+[v display_contrast@contrast contrast `uc  1 a 1 wreg ]
+[v display_contrast@F7618 F7618 `[3]uc  1 s 3 F7618 ]
+"132
+[v display_contrast@contrast contrast `uc  1 a 1 4 ]
+"135
+} 0
+"116
+[v _display_clear display_clear `(v  1 e 1 0 ]
+{
+"118
+[v display_clear@x x `uc  1 a 1 14 ]
+"117
+[v display_clear@page page `uc  1 a 1 15 ]
+"123
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"77 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"105
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"111
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"125
+} 0
+"52 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"87 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"103
+} 0
+"196 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"222
+} 0
+"51 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"73
+} 0
+"233 C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"236
+[v I2C1_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.1uc  1 s 1 pi2c_buf_ptr ]
+"237
+[v I2C1_ISR@i2c_address i2c_address `ui  1 s 2 i2c_address ]
+"238
+[v I2C1_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"239
+[v I2C1_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"561
+} 0
+"581
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+{
+[v I2C1_Stop@completion_code completion_code `E7419  1 a 1 wreg ]
+[v I2C1_Stop@completion_code completion_code `E7419  1 a 1 wreg ]
+"584
+[v I2C1_Stop@completion_code completion_code `E7419  1 a 1 1 ]
+"596
+} 0
+"563
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+{
+"579
+} 0
+"728
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+{
+"732
+} 0

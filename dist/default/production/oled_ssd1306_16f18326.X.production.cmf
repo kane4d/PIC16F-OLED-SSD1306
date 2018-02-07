@@ -1,0 +1,1695 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\oled_ssd1306_16f18326.X.production.obj
+cinit CODE 0 7B4 7B4 4C 2
+text1 CODE 0 2684 2684 9 2
+text2 CODE 0 CFB CFB 16 2
+text3 CODE 0 26BD 26BD D 2
+text4 CODE 0 D11 D11 33 2
+text5 CODE 0 24 24 11 2
+text6 CODE 0 2699 2699 C 2
+text7 CODE 0 1868 1868 2F 2
+text8 CODE 0 2798 2798 1F 2
+text9 CODE 0 1ACE 1ACE B0 2
+text10 CODE 0 E3E E3E 1C2 2
+text11 CODE 0 1028 1028 B3 2
+text12 CODE 0 267B 267B 9 2
+text13 CODE 0 19AE 19AE 81 2
+text14 CODE 0 1C63 1C63 EC 2
+text15 CODE 0 1E98 1E98 168 2
+text16 CODE 0 26D9 26D9 F 2
+text17 CODE 0 D44 D44 FA 2
+text18 CODE 0 1250 1250 1A8 2
+text19 CODE 0 1897 1897 52 2
+text20 CODE 0 10DB 10DB 175 2
+text21 CODE 0 35 35 3F 2
+text22 CODE 0 1A2F 1A2F 9F 2
+text23 CODE 0 1B7E 1B7E E5 2
+text24 CODE 0 1944 1944 6A 2
+text25 CODE 0 26F9 26F9 14 2
+text26 CODE 0 183C 183C 2C 2
+text27 CODE 0 27B7 27B7 23 2
+text28 CODE 0 1001 1001 27 2
+text29 CODE 0 1813 1813 29 2
+text30 CODE 0 277A 277A 1E 2
+text31 CODE 0 18E9 18E9 5B 2
+text32 CODE 0 2741 2741 1C 2
+text33 CODE 0 26CA 26CA F 2
+text34 CODE 0 266F 266F 4 2
+text35 CODE 0 2673 2673 8 2
+text36 CODE 0 27DA 27DA 26 2
+text37 CODE 0 268D 268D C 2
+text38 CODE 0 275D 275D 1D 2
+text40 CODE 0 1D4F 1D4F 149 2
+text41 CODE 0 270D 270D 1A 2
+text42 CODE 0 26E8 26E8 11 2
+text43 CODE 0 266C 266C 3 2
+idataBIGRAM CODE 0 13F8 13F8 408 2
+maintext CODE 0 74 74 740 2
+cstackCOMMON COMMON 1 77 77 7 1
+cstackBANK0 BANK0 1 20 20 4E 1
+cstackBANK1 BANK1 1 A0 A0 43 1
+cstackBANK2 BANK2 1 143 143 15 1
+inittext CODE 0 26B1 26B1 C 2
+stringtext1 STRCODE 0 800 800 4FB 2
+stringtext2 STRCODE 0 2000 2000 2B 2
+stringtext3 STRCODE 0 2821 2821 9 2
+stringtext4 STRCODE 0 2800 2800 14 2
+stringtext5 STRCODE 0 2814 2814 D 2
+stringtext6 STRCODE 0 282A 282A 7 2
+intentry CODE 0 2 2 1E 2
+bssBANK0 BANK0 1 6E 6E 2 1
+bssBANK1 BANK1 1 E3 E3 D 1
+bssBANK2 BANK2 1 120 120 23 1
+idataBANK2 CODE 0 1800 1800 13 2
+idataBANK3 CODE 0 2727 2727 1A 2
+swtext1 CONST 0 202B 202B 18 2
+dataBANK2 BANK2 1 158 158 13 1
+dataBANK3 BANK3 1 1A0 1A0 1A 1
+clrtext CODE 0 26A5 26A5 C 2
+bssCOMMON COMMON 1 70 70 7 1
+$C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 20 20 3 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 16B-16F 1
+RAM 1BA-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-647 1
+BANK2 16B-16F 1
+BANK3 1BA-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 23-23 2
+CONST 1000-1000 2
+CONST 2043-266B 2
+CONST 2831-3FFF 2
+ENTRY 23-23 2
+ENTRY 1000-1000 2
+ENTRY 2043-266B 2
+ENTRY 2831-3FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-69F 1
+SFR14 700-71F 1
+SFR15 780-79F 1
+SFR16 800-81F 1
+SFR17 880-89F 1
+SFR18 900-91F 1
+SFR19 980-99F 1
+SFR20 A00-A1F 1
+SFR21 A80-A9F 1
+SFR22 B00-B1F 1
+SFR23 B80-B9F 1
+SFR24 C00-C1F 1
+SFR25 C80-C9F 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+CODE 23-23 2
+CODE 1000-1000 2
+CODE 2043-266B 2
+CODE 2831-3FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-647 1
+BIGRAM 2000-27EF 1
+CONFIG 8007-800A 2
+EEDATA F000-F0FF 2
+STRCODE 23-23 2
+STRCODE 1000-1000 2
+STRCODE 2043-266B 2
+STRCODE 2831-3FFF 2
+STRING 23-23 2
+STRING 1000-1000 2
+STRING 2043-266B 2
+STRING 2831-3FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\oled_ssd1306_16f18326.X.production.obj
+7B4 cinit CODE >6812:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B4 cinit CODE >6815:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B4 cinit CODE >6964:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B5 cinit CODE >6965:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B6 cinit CODE >6966:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B7 cinit CODE >6967:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B8 cinit CODE >6968:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7B9 cinit CODE >6969:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BA cinit CODE >6970:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BB cinit CODE >6971:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BC cinit CODE >6972:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BD cinit CODE >6973:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BE cinit CODE >6974:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7BF cinit CODE >6975:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C2 cinit CODE >6979:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C3 cinit CODE >6980:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C4 cinit CODE >6981:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C5 cinit CODE >6982:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C6 cinit CODE >6983:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C7 cinit CODE >6984:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C8 cinit CODE >6985:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7C9 cinit CODE >6986:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7CA cinit CODE >6987:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7CB cinit CODE >6988:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7CC cinit CODE >6989:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7CD cinit CODE >6990:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D0 cinit CODE >6994:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D1 cinit CODE >6995:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D2 cinit CODE >6996:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D3 cinit CODE >6997:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D4 cinit CODE >6998:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D5 cinit CODE >6999:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D6 cinit CODE >7000:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D7 cinit CODE >7001:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D8 cinit CODE >7002:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7D9 cinit CODE >7003:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7DA cinit CODE >7004:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7DB cinit CODE >7005:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7DE cinit CODE >7028:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7DF cinit CODE >7029:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E0 cinit CODE >7030:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E1 cinit CODE >7031:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E2 cinit CODE >7032:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E3 cinit CODE >7033:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E4 cinit CODE >7034:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E5 cinit CODE >7038:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E6 cinit CODE >7039:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E7 cinit CODE >7043:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E8 cinit CODE >7044:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7E9 cinit CODE >7045:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7EA cinit CODE >7046:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7EB cinit CODE >7047:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7EC cinit CODE >7048:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7ED cinit CODE >7049:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7EE cinit CODE >7050:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7EF cinit CODE >7051:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F2 cinit CODE >7055:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F3 cinit CODE >7056:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F4 cinit CODE >7057:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F5 cinit CODE >7058:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F6 cinit CODE >7059:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F7 cinit CODE >7060:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F8 cinit CODE >7061:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7F9 cinit CODE >7062:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7FA cinit CODE >7063:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7FC cinit CODE >7069:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7FC cinit CODE >7071:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7FD cinit CODE >7072:C:\Users\kane4d\AppData\Local\Temp\s84c.
+7FE cinit CODE >7073:C:\Users\kane4d\AppData\Local\Temp\s84c.
+2 intentry CODE >51:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+7 intentry CODE >54:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+9 intentry CODE >56:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+F intentry CODE >58:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >59:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+13 intentry CODE >60:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+19 intentry CODE >62:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+1B intentry CODE >73:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/interrupt_manager.c
+266C text43 CODE >728:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+266C text43 CODE >731:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+266E text43 CODE >732:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26E8 text42 CODE >563:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26E8 text42 CODE >567:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26EC text42 CODE >570:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26F1 text42 CODE >572:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26F5 text42 CODE >573:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26F6 text42 CODE >574:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+26F6 text42 CODE >576:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+270D text41 CODE >581:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+270E text41 CODE >584:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2710 text41 CODE >587:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2718 text41 CODE >590:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2724 text41 CODE >594:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2726 text41 CODE >596:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+202B swtext1 CONST >259:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D4F text40 CODE >233:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D4F text40 CODE >241:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D51 text40 CODE >245:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D54 text40 CODE >248:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D55 text40 CODE >249:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D57 text40 CODE >250:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D61 text40 CODE >253:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D62 text40 CODE >255:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D63 text40 CODE >261:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D63 text40 CODE >263:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D65 text40 CODE >266:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D69 text40 CODE >267:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D71 text40 CODE >268:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D78 text40 CODE >270:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D7C text40 CODE >273:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D80 text40 CODE >276:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D84 text40 CODE >281:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D85 text40 CODE >284:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D88 text40 CODE >287:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D89 text40 CODE >291:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D8B text40 CODE >294:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D90 text40 CODE >297:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D91 text40 CODE >299:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D91 text40 CODE >304:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D93 text40 CODE >307:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D98 text40 CODE >309:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D99 text40 CODE >311:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D99 text40 CODE >313:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1D9C text40 CODE >315:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DA1 text40 CODE >316:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DA4 text40 CODE >317:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DA5 text40 CODE >321:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DAE text40 CODE >324:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DB0 text40 CODE >328:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DB5 text40 CODE >329:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DB6 text40 CODE >333:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DBB text40 CODE >337:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DBC text40 CODE >339:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DBC text40 CODE >341:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DBF text40 CODE >343:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DC4 text40 CODE >344:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DC7 text40 CODE >345:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DC8 text40 CODE >346:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DC8 text40 CODE >350:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DC9 text40 CODE >354:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DDC text40 CODE >357:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DDD text40 CODE >360:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DE0 text40 CODE >363:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DE4 text40 CODE >366:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DE5 text40 CODE >381:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DE8 text40 CODE >384:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DF0 text40 CODE >385:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DF7 text40 CODE >386:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1DFE text40 CODE >412:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E01 text40 CODE >413:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E03 text40 CODE >416:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E08 text40 CODE >417:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E09 text40 CODE >421:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E0E text40 CODE >424:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E0F text40 CODE >426:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E0F text40 CODE >429:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E12 text40 CODE >432:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E17 text40 CODE >435:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E19 text40 CODE >438:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E1C text40 CODE >440:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E1D text40 CODE >444:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E23 text40 CODE >449:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E27 text40 CODE >452:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E2B text40 CODE >454:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E2E text40 CODE >455:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E2F text40 CODE >456:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E2F text40 CODE >464:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E31 text40 CODE >467:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E36 text40 CODE >470:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E37 text40 CODE >474:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E42 text40 CODE >477:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E43 text40 CODE >479:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E43 text40 CODE >482:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E46 text40 CODE >486:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E4B text40 CODE >489:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E4E text40 CODE >492:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E50 text40 CODE >493:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E51 text40 CODE >494:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E51 text40 CODE >496:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E52 text40 CODE >497:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E57 text40 CODE >499:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E58 text40 CODE >506:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E5C text40 CODE >509:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E5E text40 CODE >511:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E5F text40 CODE >516:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E6C text40 CODE >519:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E70 text40 CODE >526:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E72 text40 CODE >529:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E77 text40 CODE >530:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E78 text40 CODE >531:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E78 text40 CODE >536:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E7A text40 CODE >538:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E7C text40 CODE >542:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E7E text40 CODE >543:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E7F text40 CODE >549:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E82 text40 CODE >550:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E83 text40 CODE >556:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E88 text40 CODE >557:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E8B text40 CODE >560:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E8C text40 CODE >259:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+1E97 text40 CODE >561:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+275D text38 CODE >196:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+275D text38 CODE >198:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2763 text38 CODE >199:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2769 text38 CODE >200:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+276A text38 CODE >201:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+276B text38 CODE >203:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+276C text38 CODE >206:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+276E text38 CODE >208:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2770 text38 CODE >210:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2771 text38 CODE >212:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2773 text38 CODE >215:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2775 text38 CODE >216:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2776 text38 CODE >219:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2778 text38 CODE >220:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+2779 text38 CODE >222:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/i2c1.c
+268D text37 CODE >87:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+268D text37 CODE >90:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2690 text37 CODE >92:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2691 text37 CODE >94:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2692 text37 CODE >96:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2694 text37 CODE >98:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2696 text37 CODE >100:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2696 text37 CODE >102:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+27DA text36 CODE >52:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27DA text36 CODE >57:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27DC text36 CODE >58:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27DD text36 CODE >63:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27E0 text36 CODE >64:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27E2 text36 CODE >69:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27E5 text36 CODE >70:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27E7 text36 CODE >75:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27E9 text36 CODE >76:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27EA text36 CODE >81:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27EC text36 CODE >82:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27ED text36 CODE >89:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27F2 text36 CODE >90:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27F6 text36 CODE >91:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27FB text36 CODE >92:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+27FF text36 CODE >94:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/pin_manager.c
+2673 text35 CODE >111:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2673 text35 CODE >114:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2675 text35 CODE >116:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2676 text35 CODE >118:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2677 text35 CODE >120:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2678 text35 CODE >122:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2679 text35 CODE >124:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+267A text35 CODE >125:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+266F text34 CODE >105:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+266F text34 CODE >108:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2672 text34 CODE >109:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26CA text33 CODE >77:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26CA text33 CODE >80:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26CD text33 CODE >81:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26D0 text33 CODE >82:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26D3 text33 CODE >83:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26D6 text33 CODE >84:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+26D8 text33 CODE >85:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\mcc_generated_files/mcc.c
+2741 text32 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+2741 text32 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+2744 text32 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+2746 text32 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+274A text32 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+274F text32 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+2754 text32 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+2758 text32 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+18E9 text31 CODE >116:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+18E9 text31 CODE >117:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+18EF text31 CODE >118:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+18F5 text31 CODE >119:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1918 text31 CODE >118:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1920 text31 CODE >121:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+193F text31 CODE >117:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+277A text30 CODE >126:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+277C text30 CODE >132:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2788 text30 CODE >133:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+278C text30 CODE >134:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2797 text30 CODE >135:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1813 text29 CODE >268:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1813 text29 CODE >269:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1818 text29 CODE >270:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+181C text29 CODE >271:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1823 text29 CODE >272:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1828 text29 CODE >274:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1829 text29 CODE >275:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+182D text29 CODE >276:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1830 text29 CODE >277:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1839 text29 CODE >278:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+183B text29 CODE >279:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1001 text28 CODE >42:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1001 text28 CODE >45:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+100D text28 CODE >74:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+101C text28 CODE >76:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1027 text28 CODE >77:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27B7 text27 CODE >138:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27B9 text27 CODE >143:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27C1 text27 CODE >144:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27CE text27 CODE >145:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27D9 text27 CODE >146:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+183C text26 CODE >235:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+183E text26 CODE >247:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+184C text26 CODE >248:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1850 text26 CODE >249:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1854 text26 CODE >250:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1858 text26 CODE >251:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+185C text26 CODE >252:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1867 text26 CODE >253:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26F9 text25 CODE >226:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26F9 text25 CODE >231:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2701 text25 CODE >232:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+270C text25 CODE >233:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1944 text24 CODE >148:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1944 text24 CODE >155:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1953 text24 CODE >156:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1958 text24 CODE >157:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+195D text24 CODE >158:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1968 text24 CODE >159:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1988 text24 CODE >160:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+19A8 text24 CODE >156:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B7E text23 CODE >98:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B7E text23 CODE >100:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B9B text23 CODE >105:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1BD7 text23 CODE >106:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1BD8 text23 CODE >108:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C14 text23 CODE >109:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C15 text23 CODE >111:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C50 text23 CODE >113:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C51 text23 CODE >103:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C62 text23 CODE >114:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A2F text22 CODE >334:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A31 text22 CODE >336:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A38 text22 CODE >338:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A39 text22 CODE >340:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A43 text22 CODE >341:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A5B text22 CODE >342:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A5C text22 CODE >344:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A7B text22 CODE >345:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A9A text22 CODE >346:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A9B text22 CODE >348:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1ABA text22 CODE >349:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AC1 text22 CODE >351:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AC2 text22 CODE >338:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1ACD text22 CODE >352:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+35 text21 CODE >354:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+35 text21 CODE >356:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+5B text21 CODE >359:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+64 text21 CODE >361:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+73 text21 CODE >362:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10DB text20 CODE >473:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10DB text20 CODE >475:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10E9 text20 CODE >476:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10ED text20 CODE >477:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10FC text20 CODE >478:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10FE text20 CODE >479:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1102 text20 CODE >480:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1113 text20 CODE >481:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+112C text20 CODE >482:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+113E text20 CODE >483:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1150 text20 CODE >500:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1157 text20 CODE >484:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1164 text20 CODE >485:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1167 text20 CODE >486:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+116B text20 CODE >487:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+116F text20 CODE >488:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1173 text20 CODE >489:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1173 text20 CODE >490:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1177 text20 CODE >491:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+117B text20 CODE >492:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+117F text20 CODE >493:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1192 text20 CODE >494:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+11AD text20 CODE >495:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+11C8 text20 CODE >496:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+11EA text20 CODE >497:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+11FE text20 CODE >498:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1219 text20 CODE >499:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1234 text20 CODE >500:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+124F text20 CODE >484:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1897 text19 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1897 text19 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1899 text19 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+189B text19 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18A0 text19 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18A2 text19 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18A4 text19 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18A9 text19 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18AD text19 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18AF text19 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18B3 text19 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18B5 text19 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18B7 text19 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18BC text19 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18C0 text19 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18C1 text19 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18C6 text19 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18CE text19 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18D2 text19 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18D3 text19 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18D8 text19 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18DC text19 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18DF text19 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+18E4 text19 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1250 text18 CODE >167:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1250 text18 CODE >169:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1259 text18 CODE >171:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1288 text18 CODE >172:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12B7 text18 CODE >173:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12BB text18 CODE >175:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12BB text18 CODE >207:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12C3 text18 CODE >178:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12CB text18 CODE >180:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12D0 text18 CODE >182:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12D7 text18 CODE >183:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12DB text18 CODE >184:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12DF text18 CODE >185:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12F6 text18 CODE >186:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+12FE text18 CODE >189:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+130C text18 CODE >192:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+131D text18 CODE >194:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1326 text18 CODE >195:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+132F text18 CODE >196:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1331 text18 CODE >193:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1341 text18 CODE >198:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1342 text18 CODE >200:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1349 text18 CODE >201:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+134F text18 CODE >202:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1357 text18 CODE >203:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1358 text18 CODE >199:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1368 text18 CODE >206:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+136C text18 CODE >175:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+136D text18 CODE >210:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+139C text18 CODE >211:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13AF text18 CODE >212:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13BC text18 CODE >214:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13C0 text18 CODE >215:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13C1 text18 CODE >217:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13CA text18 CODE >218:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13D3 text18 CODE >219:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13DB text18 CODE >221:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13DF text18 CODE >215:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13DF text18 CODE >222:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13E7 text18 CODE >216:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+13F7 text18 CODE >215:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D44 text17 CODE >365:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D44 text17 CODE >367:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D55 text17 CODE >373:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D5C text17 CODE >374:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D79 text17 CODE >376:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D96 text17 CODE >378:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D96 text17 CODE >379:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+DB3 text17 CODE >381:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+DD1 text17 CODE >385:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+DDA text17 CODE >386:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+DE3 text17 CODE >389:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E0D text17 CODE >391:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E1A text17 CODE >392:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E26 text17 CODE >395:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E3D text17 CODE >396:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26D9 text16 CODE >399:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26D9 text16 CODE >401:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26DC text16 CODE >402:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1E98 text15 CODE >407:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1E98 text15 CODE >409:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1EA9 text15 CODE >411:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1EBF text15 CODE >412:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1EC0 text15 CODE >417:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F00 text15 CODE >418:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F04 text15 CODE >419:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F19 text15 CODE >420:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F2D text15 CODE >421:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F2D text15 CODE >422:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F3A text15 CODE >423:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F4F text15 CODE >424:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F63 text15 CODE >427:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F74 text15 CODE >428:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1F8D text15 CODE >429:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FA5 text15 CODE >431:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FB2 text15 CODE >432:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FB7 text15 CODE >434:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FBC text15 CODE >436:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FC9 text15 CODE >437:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FCE text15 CODE >438:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FD7 text15 CODE >440:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FE7 text15 CODE >442:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FEC text15 CODE >443:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FEE text15 CODE >444:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FF5 text15 CODE >445:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FFA text15 CODE >436:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1FFA text15 CODE >446:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C63 text14 CODE >450:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C63 text14 CODE >452:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1C96 text14 CODE >453:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1CD9 text14 CODE >454:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1D0C text14 CODE >455:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1D4E text14 CODE >456:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+19AE text13 CODE >504:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+19AE text13 CODE >506:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+19D9 text13 CODE >507:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A04 text13 CODE >508:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1A2E text13 CODE >509:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+267B text12 CODE >286:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+267B text12 CODE >287:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1028 text11 CODE >458:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1028 text11 CODE >459:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+102B text11 CODE >460:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+103C text11 CODE >461:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+105A text11 CODE >462:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1086 text11 CODE >461:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+108C text11 CODE >465:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10AA text11 CODE >466:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+10D5 text11 CODE >465:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E3E text10 CODE >513:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E3E text10 CODE >517:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E98 text10 CODE >520:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E99 text10 CODE >521:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+E9F text10 CODE >523:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+EA3 text10 CODE >524:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+EA5 text10 CODE >526:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+ED0 text10 CODE >527:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+ED1 text10 CODE >528:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+ED7 text10 CODE >529:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+ED9 text10 CODE >530:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+EDC text10 CODE >531:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+F05 text10 CODE >533:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+F5E text10 CODE >535:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+F67 text10 CODE >536:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+F6A text10 CODE >537:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+F93 text10 CODE >539:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+FEF text10 CODE >542:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+FF2 text10 CODE >528:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+FFB text10 CODE >521:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1ACE text9 CODE >547:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AD0 text9 CODE >548:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AD4 text9 CODE >549:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AE5 text9 CODE >550:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AE7 text9 CODE >551:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1AED text9 CODE >554:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B1A text9 CODE >555:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B34 text9 CODE >556:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B6A text9 CODE >557:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B7B text9 CODE >558:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1B7D text9 CODE >560:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2798 text8 CODE >563:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2798 text8 CODE >567:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+279D text8 CODE >568:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27A4 text8 CODE >569:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27A8 text8 CODE >568:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+27A9 text8 CODE >571:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1868 text7 CODE >574:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1868 text7 CODE >576:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+187B text7 CODE >577:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+187D text7 CODE >578:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1887 text7 CODE >579:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+1891 text7 CODE >578:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2699 text6 CODE >583:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2699 text6 CODE >584:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26A1 text6 CODE >585:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26A4 text6 CODE >586:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+24 text5 CODE >294:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+24 text5 CODE >295:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2C text5 CODE >296:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+34 text5 CODE >297:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D11 text4 CODE >317:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D13 text4 CODE >319:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D18 text4 CODE >320:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D19 text4 CODE >323:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D21 text4 CODE >324:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D26 text4 CODE >325:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D27 text4 CODE >328:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D2C text4 CODE >329:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D34 text4 CODE >331:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D35 text4 CODE >320:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D43 text4 CODE >332:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26BD text3 CODE >303:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26BD text3 CODE >306:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+26C9 text3 CODE >307:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+CFB text2 CODE >299:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+CFD text2 CODE >300:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+D10 text2 CODE >301:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2684 text1 CODE >282:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+2684 text1 CODE >283:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\ssd1306.c
+74 maintext CODE >55:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+74 maintext CODE >58:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+77 maintext CODE >63:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+78 maintext CODE >66:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+79 maintext CODE >72:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+7C maintext CODE >76:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+7F maintext CODE >77:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+82 maintext CODE >81:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+92 maintext CODE >82:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+95 maintext CODE >84:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+A2 maintext CODE >85:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+A5 maintext CODE >86:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+A8 maintext CODE >90:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+AB maintext CODE >91:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+C2 maintext CODE >92:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+E2 maintext CODE >93:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+E5 maintext CODE >91:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+EB maintext CODE >95:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+103 maintext CODE >96:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+123 maintext CODE >97:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+126 maintext CODE >95:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+12C maintext CODE >100:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+139 maintext CODE >101:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+13C maintext CODE >102:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+13F maintext CODE >105:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+143 maintext CODE >106:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+14B maintext CODE >107:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+155 maintext CODE >110:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+165 maintext CODE >111:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+16B maintext CODE >113:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+16F maintext CODE >110:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+181 maintext CODE >115:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+184 maintext CODE >117:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+191 maintext CODE >118:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+194 maintext CODE >119:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+197 maintext CODE >122:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1A1 maintext CODE >125:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1A5 maintext CODE >126:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1A9 maintext CODE >127:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1AD maintext CODE >128:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1B1 maintext CODE >129:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1B5 maintext CODE >130:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1B9 maintext CODE >131:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1BC maintext CODE >133:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1C9 maintext CODE >134:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1CC maintext CODE >135:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1CF maintext CODE >138:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1D3 maintext CODE >139:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1DB maintext CODE >140:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1E5 maintext CODE >141:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1ED maintext CODE >142:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1F5 maintext CODE >143:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+1F8 maintext CODE >145:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+205 maintext CODE >146:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+208 maintext CODE >147:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+20B maintext CODE >151:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+20F maintext CODE >152:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+217 maintext CODE >153:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+221 maintext CODE >155:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+233 maintext CODE >156:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+23B maintext CODE >155:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+24D maintext CODE >159:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+250 maintext CODE >163:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+266 maintext CODE >164:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+272 maintext CODE >165:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+275 maintext CODE >166:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+28B maintext CODE >167:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+297 maintext CODE >168:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+29A maintext CODE >172:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+2A7 maintext CODE >173:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+2AA maintext CODE >174:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+2AD maintext CODE >178:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+2D2 maintext CODE >179:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+323 maintext CODE >180:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+326 maintext CODE >178:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+32C maintext CODE >183:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+339 maintext CODE >184:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+33C maintext CODE >185:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+33F maintext CODE >188:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+342 maintext CODE >189:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+366 maintext CODE >191:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3BD maintext CODE >192:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3C0 maintext CODE >193:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3C6 maintext CODE >189:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3CB maintext CODE >196:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3D8 maintext CODE >197:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3DB maintext CODE >198:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3DE maintext CODE >201:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+3F6 maintext CODE >202:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+42E maintext CODE >203:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+431 maintext CODE >201:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+437 maintext CODE >206:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+444 maintext CODE >207:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+447 maintext CODE >208:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+44A maintext CODE >214:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+44E maintext CODE >217:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+539 maintext CODE >218:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+53C maintext CODE >214:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+597 maintext CODE >222:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5A4 maintext CODE >223:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5A7 maintext CODE >224:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5AA maintext CODE >227:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5AD maintext CODE >228:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5BC maintext CODE >229:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5C1 maintext CODE >230:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+5C5 maintext CODE >233:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+6B0 maintext CODE >234:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+6B3 maintext CODE >235:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+6BF maintext CODE >230:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+71A maintext CODE >228:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+72C maintext CODE >239:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+739 maintext CODE >242:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+73D maintext CODE >243:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+74A maintext CODE >245:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+751 maintext CODE >246:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+755 maintext CODE >247:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+75E maintext CODE >245:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+765 maintext CODE >252:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+769 maintext CODE >253:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+776 maintext CODE >254:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+786 maintext CODE >255:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+78B maintext CODE >256:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+794 maintext CODE >254:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+7A6 maintext CODE >260:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+7B3 maintext CODE >262:C:\Users\kane4d\MPLABXProjects\oled_ssd1306_16f18326.X\main.c
+26A5 clrtext CODE >7011:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A5 clrtext CODE >7012:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A6 clrtext CODE >7013:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A6 clrtext CODE >7014:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A7 clrtext CODE >7015:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A8 clrtext CODE >7016:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26A9 clrtext CODE >7017:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AA clrtext CODE >7018:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AB clrtext CODE >7019:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AC clrtext CODE >7020:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AD clrtext CODE >7021:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AE clrtext CODE >7022:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26AF clrtext CODE >7024:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B0 clrtext CODE >7023:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B1 inittext CODE >6947:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B1 inittext CODE >6948:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B2 inittext CODE >6949:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B2 inittext CODE >6950:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B3 inittext CODE >6951:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B4 inittext CODE >6952:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B5 inittext CODE >6953:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B6 inittext CODE >6954:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B7 inittext CODE >6955:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B8 inittext CODE >6956:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26B9 inittext CODE >6957:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26BA inittext CODE >6958:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26BB inittext CODE >6960:C:\Users\kane4d\AppData\Local\Temp\s84c.
+26BC inittext CODE >6959:C:\Users\kane4d\AppData\Local\Temp\s84c.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 3 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___awdiv@counter 27 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+_I2C1_Initialize 4EBA 0 CODE 0 text38 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_clear 3288 0 CODE 0 text31 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hspace_0 2831 0 ABS 0 - -
+__Hspace_1 1BA 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+_p_i2c1_trb_current 74 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_init 3026 0 CODE 0 text29 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawCircle 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD_Initialize 4CE6 0 CODE 0 text35 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_init 3078 0 CODE 0 text29 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_WDT_Initialize 4CE6 0 CODE 0 text34 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+main@i 156 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+main@j 154 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+gfx_init@width 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_LATA 10C 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_LATC 10E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PLLR 48E0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD0 911 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD1 912 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD2 913 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD3 914 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD4 915 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PMD5 916 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_WPUA 20C 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_WPUC 20E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+_font 1000 0 STRCODE 0 stringtext1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main E8 0 CODE 0 maintext dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_clear@x 2E 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_wrap 136 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+start 40 0 CODE 0 init C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_update@F7624 161 0 BANK2 1 dataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+display_contrast@contrast 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_I2C1_ISR 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+I2C1_ISR@i2c_10bit_address_restart EB 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawChar$1414 C8 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawChar$1415 CA 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_p_i2c1_current 73 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_setPixel@x 26 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_setPixel@y 28 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_setTextSize@size 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+I2C1_ISR@i2c_address 75 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_ssd1306_init_cmd 4056 0 STRCODE 0 stringtext2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_setPixel 38C6 0 CODE 0 text23 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawRect@color B4 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawTriangle 335C 0 CODE 0 text13 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_setTextSize 1A22 0 CODE 0 text2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_display_contrast 4EF4 0 CODE 0 text30 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+I2C1_ISR@pi2c_buf_ptr ED 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_setPixel 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_setTextSize$814 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?_my_strlen 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+I2C1_ISR@i2c_bytes_left EC 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_PMD_Initialize 4CF6 0 CODE 0 text35 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pidataBIGRAM 27F0 0 CODE 0 idataBIGRAM dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___awdiv@sign 28 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+gfx_drawPixel@x 36 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawPixel@y 38 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@color B4 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_height 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_hvLine 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_I2C1_FunctionComplete 4DF2 0 CODE 0 text42 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@color 43 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@ddF_x 49 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@ddF_y 4B 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_setTextColor 4D7A 0 CODE 0 text3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_rotation_adjust 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_ANSELA 18C 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_ANSELC 18E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___awdiv@dividend 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@color 2E 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_println 4D4A 0 CODE 0 text6 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_I2C1_ISR 3A9E 0 CODE 0 text40 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?_gfx_height 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_print@i D9 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_print@s D5 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_INTERRUPT_InterruptManager 40 0 CODE 0 intentry dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?_my_abs 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_contrast@F7618 166 0 BANK2 1 dataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of___wmul 4EBA 0 CODE 0 text32 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_setPixel@color 2A 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?_gfx_width 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_scroll@F7650 158 0 BANK2 1 dataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_I2C1_ISR 3D30 0 CODE 0 text40 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_I2C1_FunctionComplete 4DD0 0 CODE 0 text42 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+display_scroll@speed 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_scroll@start 2D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@bg BD 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_setTextSize 19F6 0 CODE 0 text2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___awdiv@divisor 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_setRotation 1A88 0 CODE 0 text4 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of___awdiv 31D2 0 CODE 0 text19 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@pstart_778 3A 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_HEIGHT 70 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@h B2 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@i 6B 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@w B0 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@x AC 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_fillRect@y AE 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LidataBIGRAM 0 0 ABS 0 idataBIGRAM -
+_display_invert 4F6E 0 CODE 0 text27 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_rotation_adjust 345E 0 CODE 0 text22 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_i2c1_trb_count EE 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawTriangle 345E 0 CODE 0 text13 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PIN_MANAGER_Initialize 4FB4 0 CODE 0 text36 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_contrast 4F30 0 CODE 0 text30 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_init@F7608 1A0 0 BANK3 1 dataBANK3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+start_initialization F68 0 CODE 0 cinit dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawChar 1C7C 0 CODE 0 text10 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawLine 3D30 0 CODE 0 text15 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawRect 38C6 0 CODE 0 text14 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_ODCONA 28C 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_ODCONC 28E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCFRQ 91F 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawTriangle 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_contrast 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@c BA 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@i CD 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@j CC 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@x B6 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@y B8 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_SYSTEM_Initialize 4DB2 0 CODE 0 text33 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+my_abs@a 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_my_abs 4DD0 0 CODE 0 text16 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+clear_ram0 4D4A 0 CODE 0 clrtext dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pcstackBANK2 143 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_clear@page 2F 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_setTextColor 4D94 0 CODE 0 text3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_setRotation 1A22 0 CODE 0 text4 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+I2C1_MasterRead@trBlock 138 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_scroll 3078 0 CODE 0 text26 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_setTextColor 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@pixmask 42 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_stopscroll 4E1A 0 CODE 0 text25 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_write@ch 6D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_stopscroll@cmdbuf 21 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_WDTCON 97 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+my_strlen@cp 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_update 3288 0 CODE 0 text24 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 1000 0 CODE 0 cinit -
+__end_of_display_invert 4FB4 0 CODE 0 text27 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+_main$1408 148 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$1409 14A 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$1410 14C 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$1411 14E 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$1412 150 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$1413 152 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawChar 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawLine 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawRect 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@ptr 46 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 ABS 0 bank13 -
+__Hbank14 0 0 ABS 0 bank14 -
+__Hbank15 0 0 ABS 0 bank15 -
+__Hbank16 0 0 ABS 0 bank16 -
+__Hbank17 0 0 ABS 0 bank17 -
+__Hbank18 0 0 ABS 0 bank18 -
+__Hbank19 0 0 ABS 0 bank19 -
+__Hbank20 0 0 ABS 0 bank20 -
+__Hbank21 0 0 ABS 0 bank21 -
+__Hbank22 0 0 ABS 0 bank22 -
+__Hbank23 0 0 ABS 0 bank23 -
+__Hbank24 0 0 ABS 0 bank24 -
+__Hbank25 0 0 ABS 0 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+gfx_drawLine@t AA 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 0 0 CONFIG 0 config -
+__size_of_gfx_setTextSize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit F68 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+_display_init 2002 0 CODE 0 text28 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_line 24A0 0 CODE 0 text18 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_setRotation@x 21 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 4D62 0 CODE 0 inittext dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Linittext 0 0 ABS 0 inittext -
+display_line@pend_779 38 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 40 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 40 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 1000 0 STRCODE 0 stringtext1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext2 4000 0 STRCODE 0 stringtext2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext3 5042 0 STRCODE 0 stringtext3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext4 5000 0 STRCODE 0 stringtext4 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext5 5028 0 STRCODE 0 stringtext5 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext6 5054 0 STRCODE 0 stringtext6 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pstringtext7 0 0 STRCODE 0 stringtext7 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_I2C1_BusCollisionISR 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_println 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_stopscroll 4DF2 0 CODE 0 text25 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1CON1 215 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1CON3 217 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1STAT 214 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawPixel 6A 0 CODE 0 text21 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___wmul 4E82 0 CODE 0 text32 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+gfx_drawRect@h B2 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawRect@w B0 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawRect@x AC 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawRect@y AE 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawChar 2000 0 CODE 0 text10 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawLine 4000 0 CODE 0 text15 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawRect 3A9E 0 CODE 0 text14 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+int$flags 7E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__width E8 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+gfx_drawTriangle@x0 AC 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@x1 B0 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@x2 B4 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@y0 AE 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@y1 B2 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@y2 B6 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_drawCircle 21B6 0 CODE 0 text20 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_hvLine@t 53 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_WDT_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@ptr_781 44 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__S0 2831 0 ABS 0 - -
+__S1 1BA 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+gfx_drawLine@color 5D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_scroll 30D0 0 CODE 0 text26 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_rotation_adjust 359C 0 CODE 0 text22 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@steep A6 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@ystep A2 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_invert@F7621 134 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_I2C1_BusCollisionISR 4CDE 0 CODE 0 text43 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HidataBIGRAM 0 0 ABS 0 idataBIGRAM -
+__end_of_display_update 335C 0 CODE 0 text24 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_frameBuff 23E8 0 ABS 1 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_contrast@cmdbuf 21 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+I2C1_Stop@completion_code 78 0 COMMON 1 cstackCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SYSTEM_Initialize 4D94 0 CODE 0 text33 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_init 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_line 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_setCursor 48 0 CODE 0 text5 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_BORV$LOW 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_fillRect 2050 0 CODE 0 text11 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lintentry 4 0 CODE 0 intentry -
+__size_of_gfx_setRotation 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+__end_of_my_strlen 4F6E 0 CODE 0 text8 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pdataBANK2 158 0 BANK2 1 dataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pdataBANK3 1A0 0 BANK3 1 dataBANK3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_my_strlen 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__Lstringtext6 0 0 ABS 0 stringtext6 -
+__Lstringtext7 0 0 ABS 0 stringtext7 -
+_INTERRUPT_InterruptManager 4 0 CODE 0 intentry dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PIE1bits 91 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@f 4D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@r 41 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@x 4F 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@y 51 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawCircle 24A0 0 CODE 0 text20 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_update@cmdbuf 2C 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_init 2050 0 CODE 0 text28 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_display_line 27F0 0 CODE 0 text18 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_my_abs 4DB2 0 CODE 0 text16 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext10 1C7C 0 CODE 0 text10 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext11 2050 0 CODE 0 text11 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext12 4CF6 0 CODE 0 text12 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext13 335C 0 CODE 0 text13 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext14 38C6 0 CODE 0 text14 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext15 3D30 0 CODE 0 text15 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext16 4DB2 0 CODE 0 text16 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext17 1A88 0 CODE 0 text17 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext18 24A0 0 CODE 0 text18 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext19 312E 0 CODE 0 text19 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext20 21B6 0 CODE 0 text20 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext21 6A 0 CODE 0 text21 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext22 345E 0 CODE 0 text22 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext23 36FC 0 CODE 0 text23 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext24 3288 0 CODE 0 text24 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext25 4DF2 0 CODE 0 text25 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext26 3078 0 CODE 0 text26 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext27 4F6E 0 CODE 0 text27 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext28 2002 0 CODE 0 text28 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext29 3026 0 CODE 0 text29 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext30 4EF4 0 CODE 0 text30 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext31 31D2 0 CODE 0 text31 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext32 4E82 0 CODE 0 text32 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext33 4D94 0 CODE 0 text33 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext34 4CDE 0 CODE 0 text34 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext35 4CE6 0 CODE 0 text35 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext36 4FB4 0 CODE 0 text36 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext37 4D1A 0 CODE 0 text37 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext38 4EBA 0 CODE 0 text38 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext40 3A9E 0 CODE 0 text40 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext41 4E1A 0 CODE 0 text41 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext42 4DD0 0 CODE 0 text42 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext43 4CD8 0 CODE 0 text43 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_PIN_MANAGER_Initialize 5000 0 CODE 0 text36 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___awdiv 312E 0 CODE 0 text19 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 ABS 0 bank13 -
+__Lbank14 0 0 ABS 0 bank14 -
+__Lbank15 0 0 ABS 0 bank15 -
+__Lbank16 0 0 ABS 0 bank16 -
+__Lbank17 0 0 ABS 0 bank17 -
+__Lbank18 0 0 ABS 0 bank18 -
+__Lbank19 0 0 ABS 0 bank19 -
+__Lbank20 0 0 ABS 0 bank20 -
+__Lbank21 0 0 ABS 0 bank21 -
+__Lbank22 0 0 ABS 0 bank22 -
+__Lbank23 0 0 ABS 0 bank23 -
+__Lbank24 0 0 ABS 0 bank24 -
+__Lbank25 0 0 ABS 0 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+_SSP1CLKPPSbits E20 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pmaintext E8 0 CODE 0 maintext dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lbigram 0 0 ABS 0 bigram -
+_my_strlen 4F30 0 CODE 0 text8 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_textbgcolor 12A 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 0 config -
+__end_of_I2C1_Stop 4E4E 0 CODE 0 text41 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_print 312E 0 CODE 0 text7 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_width 4D1A 0 CODE 0 text1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_write 36FC 0 CODE 0 text9 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawTriangle@color B8 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_setCursor@x 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_setCursor@y 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_I2C1_Stop 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_print 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_width 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_write 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_I2C1_FunctionComplete 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_fillRect 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_print@len D7 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_println@s DB 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+main@color 147 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_oled_sendCmd 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_drawPixel 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+stacklo 0 0 ABS 0 - C:\Users\kane4d\AppData\Local\Temp\s84c.obj
+display_scroll@dir 21 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_scroll@end 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCCON1 919 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCCON3 91B 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCTUNE 91E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_I2C1_Stop 4E1A 0 CODE 0 text41 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_print 30D0 0 CODE 0 text7 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_width 4D08 0 CODE 0 text1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_write 359C 0 CODE 0 text9 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__height 132 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 70 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_init@cmdbuf 25 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__size_of_my_abs 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_fillRect 21B6 0 CODE 0 text11 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_PIR1bits 11 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lend_init 40 0 CODE 0 end_init -
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+I2C1_MasterWrite@trBlock 13C 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_textsize EA 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_invert$761 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@lbit 41 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@mask 43 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@pend 3F 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@ubit 3C 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_clear 31D2 0 CODE 0 text31 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hintentry 40 0 CODE 0 intentry -
+_gfx_height 4CF6 0 CODE 0 text12 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_RSTOSC$HFINT32 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@x1 26 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@x2 2A 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@y1 28 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@y2 2C 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_gfx_hvLine 1A88 0 CODE 0 text17 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_line@pstart 3D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 29 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+?___awdiv 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_gfx_setCursor 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_drawPixel E8 0 CODE 0 text21 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@x0 3D 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawCircle@y0 3F 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec -
+gfx_init@height 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+gfx_hvLine@color 50 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext1 4D08 0 CODE 0 text1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext2 19F6 0 CODE 0 text2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext3 4D7A 0 CODE 0 text3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext4 1A22 0 CODE 0 text4 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext5 48 0 CODE 0 text5 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext6 4D32 0 CODE 0 text6 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext7 30D0 0 CODE 0 text7 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext8 4F30 0 CODE 0 text8 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__ptext9 359C 0 CODE 0 text9 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_ssd1306_cmd_setColAddr 5008 0 STRCODE 0 stringtext4 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_cursor_x 130 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_cursor_y 12E 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_gfx_println 4D32 0 CODE 0 text6 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@color BB 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawPixel@color 3A 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_i2c1_state EF 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_oled_sendCmd$0 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_oled_sendCmd$1 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__Hstringtext6 0 0 ABS 0 stringtext6 -
+__Hstringtext7 0 0 ABS 0 stringtext7 -
+display_update@page 31 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_setCursor 6A 0 CODE 0 text5 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_stopscroll 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_scroll@cmdbuf 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_invert 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@line C7 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawChar@size BF 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_rotation 72 0 COMMON 1 bssCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK2 3000 0 CODE 0 idataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pidataBANK3 4E4E 0 CODE 0 idataBANK3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 215 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1CON2bits 216 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@err A4 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_height 4D08 0 CODE 0 text12 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_textcolor 12C 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_gfx_hvLine 1C7C 0 CODE 0 text17 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_i2c1_object E3 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_invert@cmdbuf 22 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pcstackCOMMON 77 0 COMMON 1 cstackCOMMON dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_I2C1_Initialize 4EF4 0 CODE 0 text38 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1ADD 212 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1BUF 211 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hend_init 46 0 CODE 0 end_init -
+__size_of_gfx_init 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_font 19F6 0 STRCODE 0 stringtext1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_main F68 0 CODE 0 maintext dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_DotB1 5054 0 STRCODE 0 stringtext3 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_RC5PPSbits EA5 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCEN 91D 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_TRISA 8C 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_TRISC 8E 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_WIDTH 6E 0 BANK0 1 bssBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+my_strlen@s 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$672 143 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_main$674 145 0 BANK2 1 cstackBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_scroll 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+display_invert@invert 21 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_clear 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_WDT_Initialize 4CDE 0 CODE 0 text34 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pintentry 4 0 CODE 0 intentry dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_SSP1DATPPSbits E21 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_hvLine@x1 48 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_hvLine@x2 4C 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_hvLine@y1 4A 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_hvLine@y2 4E 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_I2C1_BusCollisionISR 4CD8 0 CODE 0 text43 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_display_setPixel 36FC 0 CODE 0 text23 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+display_stopscroll@F7644 169 0 BANK2 1 dataBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__end_of_OSCILLATOR_Initialize 4D32 0 CODE 0 text37 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pdataBIGRAM 23E8 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__size_of_display_update 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_setTextColor@color 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__initialization F68 0 CODE 0 cinit dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_i2c1_tr_queue 140 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pbssBANK0 6E 0 BANK0 1 bssBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pbssBANK1 E3 0 BANK1 1 bssBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@dx A8 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@dy A0 0 BANK1 1 cstackBANK1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@x0 55 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@x1 59 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@y0 57 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_drawLine@y1 5B 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+___wmul@product 24 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_RC4PPSbits EA4 0 ABS 0 - dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_rotation_adjust@px 29 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_rotation_adjust@py 20 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+gfx_rotation_adjust@y0 27 0 BANK0 1 cstackBANK0 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+__pswtext1 4056 0 CONST 0 swtext1 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+_OSCILLATOR_Initialize 4D1A 0 CODE 0 text37 dist/default/production\oled_ssd1306_16f18326.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_frameBuff 1 23E8 0
+- 1 CA0 20
+- 1 C20 50
+- 1 BA0 50
+- 1 B20 50
+- 1 AA0 50
+- 1 A20 50
+- 1 9A0 50
+- 1 920 50
+- 1 8A0 50
+- 1 820 50
+- 1 7A0 50
+- 1 720 50
+- 1 6A0 50
+- 1 648 28
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7B4 F68 4C 2
+text1 0 2684 4D08 9 2
+text2 0 CFB 19F6 16 2
+text3 0 26BD 4D7A D 2
+text4 0 D11 1A22 33 2
+text5 0 24 48 11 2
+text6 0 2699 4D32 C 2
+text7 0 1868 30D0 2F 2
+text8 0 2798 4F30 1F 2
+text9 0 1ACE 359C B0 2
+text10 0 E3E 1C7C 1C2 2
+text11 0 1028 2050 B3 2
+text12 0 267B 4CF6 9 2
+text13 0 19AE 335C 81 2
+text14 0 1C63 38C6 EC 2
+text15 0 1E98 3D30 168 2
+text16 0 26D9 4DB2 F 2
+text17 0 D44 1A88 FA 2
+text18 0 1250 24A0 1A8 2
+text19 0 1897 312E 52 2
+text20 0 10DB 21B6 175 2
+text21 0 35 6A 3F 2
+text22 0 1A2F 345E 9F 2
+text23 0 1B7E 36FC E5 2
+text24 0 1944 3288 6A 2
+text25 0 26F9 4DF2 14 2
+text26 0 183C 3078 2C 2
+text27 0 27B7 4F6E 23 2
+text28 0 1001 2002 27 2
+text29 0 1813 3026 29 2
+text30 0 277A 4EF4 1E 2
+text31 0 18E9 31D2 5B 2
+text32 0 2741 4E82 1C 2
+text33 0 26CA 4D94 F 2
+text34 0 266F 4CDE 4 2
+text35 0 2673 4CE6 8 2
+text36 0 27DA 4FB4 26 2
+text37 0 268D 4D1A C 2
+text38 0 275D 4EBA 1D 2
+text40 0 1D4F 3A9E 149 2
+text41 0 270D 4E1A 1A 2
+text42 0 26E8 4DD0 11 2
+text43 0 266C 4CD8 3 2
+idataBIGRAM 0 13F8 27F0 41B 2
+maintext 0 74 E8 740 2
+cstackBANK0 1 20 20 50 1
+cstackBANK1 1 A0 A0 50 1
+inittext 0 26B1 4D62 C 2
+stringtext1 0 800 1000 4FB 2
+stringtext2 0 2000 4000 2B 2
+stringtext4 0 2800 5000 31 2
+reset_vec 0 0 0 23 2
+bssBANK2 1 120 120 4B 1
+idataBANK3 0 2727 4E4E 1A 2
+swtext1 0 202B 4056 18 2
+dataBANK3 1 1A0 1A0 1A 1
+clrtext 0 26A5 4D4A C 2
+bssCOMMON 1 70 70 E 1
